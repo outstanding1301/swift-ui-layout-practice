@@ -13,6 +13,10 @@
 		42DE6E6F2620222D00D80575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DE6E6E2620222D00D80575 /* Preview Assets.xcassets */; };
 		42DE6E7A2620222E00D80575 /* LayoutPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6E792620222E00D80575 /* LayoutPracticeTests.swift */; };
 		42DE6E852620222E00D80575 /* LayoutPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6E842620222E00D80575 /* LayoutPracticeUITests.swift */; };
+		42DE6E962620225200D80575 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6E952620225200D80575 /* MyProjectCard.swift */; };
+		42DE6E9B262025FC00D80575 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6E9A262025FB00D80575 /* CircleImageView.swift */; };
+		42DE6EA32620285400D80575 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6EA22620285400D80575 /* MyBasicCard.swift */; };
+		42DE6EA82620375600D80575 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE6EA72620375600D80575 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		42DE6E802620222E00D80575 /* LayoutPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DE6E842620222E00D80575 /* LayoutPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPracticeUITests.swift; sourceTree = "<group>"; };
 		42DE6E862620222E00D80575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DE6E952620225200D80575 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		42DE6E9A262025FB00D80575 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		42DE6EA22620285400D80575 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		42DE6EA72620375600D80575 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		42DE6E662620222C00D80575 /* LayoutPractice */ = {
 			isa = PBXGroup;
 			children = (
+				42DE6E952620225200D80575 /* MyProjectCard.swift */,
+				42DE6EA72620375600D80575 /* MyList.swift */,
+				42DE6EA22620285400D80575 /* MyBasicCard.swift */,
 				42DE6E672620222C00D80575 /* LayoutPracticeApp.swift */,
 				42DE6E692620222C00D80575 /* ContentView.swift */,
 				42DE6E6B2620222D00D80575 /* Assets.xcassets */,
 				42DE6E702620222D00D80575 /* Info.plist */,
 				42DE6E6D2620222D00D80575 /* Preview Content */,
+				42DE6E9A262025FB00D80575 /* CircleImageView.swift */,
 			);
 			path = LayoutPractice;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DE6E9B262025FC00D80575 /* CircleImageView.swift in Sources */,
+				42DE6EA32620285400D80575 /* MyBasicCard.swift in Sources */,
+				42DE6E962620225200D80575 /* MyProjectCard.swift in Sources */,
 				42DE6E6A2620222C00D80575 /* ContentView.swift in Sources */,
 				42DE6E682620222C00D80575 /* LayoutPracticeApp.swift in Sources */,
+				42DE6EA82620375600D80575 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
